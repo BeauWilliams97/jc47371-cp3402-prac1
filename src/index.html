@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="main.css">
+    <title>Prac 1</title>
+
+</head>
+
+<body class="d-flex flex-column min-vh-100">
+    <header>
+        <!--Navbar-->
+        <nav class="navbar navbar-expand-lg navbar-dark bg-black">
+            <!-- Add your white text and icons here -->
+        </nav>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="index.html">Home</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown1" role="button"
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Gloves
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown1">
+                            <a class="dropdown-item" href="#">Boxing</a>
+                            <a class="dropdown-item" href="#">Muay Thai</a>
+                            <a class="dropdown-item" href="#">MMA</a>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="equipment.html">Equipment</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown3" role="button"
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Apparel
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown3">
+                            <a class="dropdown-item" href="#">Boxing Training Apparel</a>
+                            <a class="dropdown-item" href="#">BJJ Training Apparel</a>
+                            <a class="dropdown-item" href="#">Muay Thai Training Apparel</a>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="timetable.html">Timetable</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contactus.html">Contact us</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <!--Carousel-->
+        <div id="carouselExampleIndicators" class="carousel slide">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="../assets/images/comingsoon.gif" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="../assets/images/comingsoon.gif" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="../assets/images/comingsoon.gif" class="d-block w-100" alt="...">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+        <!-- Featurettes -->
+        <div class="container mt-5">
+            <hr class="featurette-divider">
+            <div class="row featurette">
+                <div class="col-md-7">
+                    <h2 class="featurette-heading fw-normal lh-1">Classes for everyone. <span class="text-body-secondary"></span></h2>
+                    <p class="lead">We provide the structure to help you achieve a gladiator's physique, and the confidence to wield it. We employ years of combat sports training along with science-backed nutritional guidance to help sculpt the best you.</p>
+                    <p class="lead">Classes offered include:</p>
+                    <ul class="lead">
+                        <li>Boxing & Kick Boxing</li>
+                        <li>Brazilian Jiu-Jitsu</li>
+                        <li>Mixed Martial Arts</li>
+                        <li>Kids Classes</li>
+                    </ul>
+                    <p class="lead">Regardless of your current fitness or knowledge level, you are welcome to join us on the path to peak physical health.</p>
+                    <p class="lead">After something more personal? Want to fast track your success? We also offer private one-on-one lessons with our coaches.</p>
+                </div>
+    
+            </div>
+            <!-- Second Featurette -->
+            <hr class="featurette-divider">
+            <div class="row featurette">
+                <div class="col-md-7 order-md-2">
+                    <h2 class="featurette-heading fw-normal lh-1">Quality Equipment.<span
+                            class="text-body-secondary"></span></h2>
+                    <p class="lead">
+                        Purchase premium fight gear: high-quality boxing gloves, wraps, pads, and more. We sell tried and true gear, guaranteed to ensure optimal performance during training and competition. Step onto the mats with confidence using equipment trusted by professionals.</p>
+                </div>
+                <div class="col-md-5 order-md-1">
+                    <img src="../assets/images/gloves.jpeg" class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" alt="Your Image" width="1000" height="1000">
+                </div>
+            </div>
+            <!-- Third Featurette -->
+            <hr class="featurette-divider">
+            <div class="row featurette">
+                <div class="col-md-7">
+                    <h2 class="featurette-heading fw-normal lh-1">And lastly, this one. <span
+                            class="text-body-secondary">Checkmate.</span></h2>
+                    <p class="lead">And yes, this is the last block of representative placeholder content. Again, not
+                        really intended to be actually read, simply here to give you a better view of what this would
+                        look like with some actual content. Your content.</p>
+                </div>
+                <div class="col-md-5">
+                    <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500"
+                        height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500"
+                        preserveAspectRatio="xMidYMid slice" focusable="false">
+                        <title>Placeholder</title>
+                        <rect width="100%" height="100%" fill="var(--bs-secondary-bg)" /><text x="50%" y="50%"
+                            fill="var(--bs-secondary-color)" dy=".3em">500x500</text>
+                    </svg>
+                </div>
+            </div>
+            <!-- End of Featurettes -->
+        </div>
+    </main>
+    <!-- Footer -->
+    <footer class="footer bg-black">
+        <p class="float-end"><a href="#">Back to top</a></p>
+        <p>&copy; 2024 Company, Inc. &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+</body>
+
+</html>
